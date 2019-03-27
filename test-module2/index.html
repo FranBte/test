@@ -77,39 +77,39 @@
         <ol>
             <li>Make and link a CSS stylesheet and work from there.</li>
 
-            <li>Align the text in the header to the right of the page.</li>
+            <li>Align the text in the header to the right of the page. Make the header take up 100% of the width and 10rem in height.</li>
 
             <li>Give three h4 elements a class, change the font color, font size and font family of the class.</li>
            
-            <li>Find the div with 10 span elements nested inside. Change the background color of every odd span element using nth-child().</li>
+            <li>Find the div with 10 span elements nested inside. Change the background color of every odd span element starting from the 5th element using nth-child(). Use a hexadecimal color code for the background color.</li>
            
             <li>Media Query Task</li>
                 <ul>
-                    <li>Go to the section titled "Media Queries". Change the background color and size of the the box with the class of "mediaquery". It is in the section titled "media query".</li>
-                    <li>Mobile background color: red, size: 7rem x 7rem</li>
-                    <li>Tablet background color: green, size: 10rem x 10rem - BREAKPOINT: 768px.</li>
-                    <li>Desktop background color: orange, size: 12rem x 12rem - BREAKPOINT: 1024px.</li>
-                    <li>Large Desktop background color: blue, size: 14rem x 14rem BREAKPOINT: 1440px</li>
+                    <li>Go to the section titled "Media Queries". Give the box with the class of "media-query" a border at the different breakpoints. Look at the instructions for the border below. NOTE: You must also change the border a thickness and color at every breakpoint. Then, continue to change the size of the box at the different breakpoints.</li> 
+                    <li>Mobile: dotted border, size: 5em x 5em</li>
+                    <li>Tablet: dashed border, size: 10em x 10em - BREAKPOINT: 768px.</li>
+                    <li>Desktop: solid border, size 12em x 12em - BREAKPOINT: 1024px.</li>
+                    <li>Large: double border, size 14em x 14em - BREAKPOINT: 1440px</li>
                 </ul>
 
             <li>Flexbox Task </li>
                 <ul>
                     <li>Go to the section titled "Flexbox"</li>
-                    <li>Align the "items" in the "container" in a row. </li>
+                    <li>Align the "fx-items" in the "fx-container" in a row. </li>
                     <li>Make the items take up multiple rows.</li>
-                    <li>Position the items on the end of the container.</li> 
-                    <li>Make the items take up all available space at every breakpoint.</li>
+                    <li>Position the items on the end (right) of the container.</li> 
+                    <li>Make the items take up all available space at every size of the viewport.</li>
                 </ul>  
 
                 <li>Positioning Task</li>
                 <ul>
                     <li>Go to the section titled "Positioning"</li>
-                    <li>Give the div with the class "relative" a relative position. Position this div on the bottom-right hand side of its parent element (the box)</li>
-                    <li>Give the div with class "absolute" an absolute position. Position this div on the top-left hand side of its parent element (the relative container).</li>
-                    <li>Make the header element fixed to the top of the page.</li>
+                    <li>Give the div with the class "position-relative" a relative position. Use positioning to center the div in its parent element (the box)</li>
+                    <li>Give the div with class "position-absolute" an absolute position. Use positioning to align the div in the top-left corner of its parent element (the relative container).</li>
+                    <li>Make the box element (class name - "box") in this section stick to the top-right of the page.</li>
                 </ul>
 
-                <li>If the header element hides part of the task section, add margins where needed.</li>
+                <li>Make sure the box appears beneath all elements on the page</li>
 
                 <li>Underline ALL the TASK list items. NOTE: ONLY underline the task list items and not any other list item.</li>
         
@@ -117,24 +117,23 @@
                 <ul>
                     <li>Go to the section titled "Grid Layout"</li>
                     <li>Make the div with the class "wrapper" a grid</li>
-                    <li>Give it three columns and four rows of equal size.</li> 
-                    <li>Give the wrapper a border</li>
-                    <li>Give the grid a grid gap of 10px</li>
-                    <li>Give all cells a border.</li>
-                    <li>Make the first cell twice as high as the rest of the cells spanning row lines 1 - 3.</li>
-                    <li>Make the fourth cell twice as wide and twice as high as the the rest of the cells spanning column lines 1 - 3 and rows lines 2 - 4</li>
-                    <li>Make the sixth cell twice as wide as the rest of the cells spanning column lines 1 - 3</li>
+                    <li>Give it three rows and four columns of equal size.</li> 
+                    <li>Give the grid container a border</li>
+                    <li>Give the grid a grid gap of 15px</li>
+                    <li>Give all grid cells a border.</li>
+                    <li>Make the first cell twice as high as the rest of the cells.</li>
+                    <li>Make the fourth cell twice as wide and twice as high as the rest of the cells.</li>
+                    <li>Make the sixth cell twice as wide as the rest of the cells.</li>
                 </ul>
 
                 <li>Images Task</li>
                 <ul>
                     <li>Find the images section in the HTML file.</li>
-                    <li>Find the div with the class of "background" and select it by its class name in CSS.</li>
-                    <li>Give the div with the class of "background" a width of 20rem and a height of 20rem.</li>
-                    <li>Give the div with the class of "background" a background image using the image "tree.jpg". The image can be found in the "images" folder</li>
-                    <li>Set the background image to contain the div.</li>
+                    <li>Find the div with the class of "bg-image" and select it by its class name in CSS.</li>
+                    <li>Give the div with the class of "bg-image" a width of 25em and a height of 25em.</li>
+                    <li>Give the div with the class of "bg-image" a background image using the image "tree.jpg". The image can be found in the "images" folder</li>
+                    <li>Set the background image to contain.</li>
                     <li>Make sure the background image repeats itself</li>
-                    <li>Position the background image at the center of the div.</li>
                 </ul>
             <li>Make all of the images in the "images section" appear on different lines.</li>
             
@@ -142,7 +141,9 @@
             
             <li>Change the color of THIS list item to red. Use an ID to select this HTML element.</li>
 
-            <li>Select all the anchor links in the footer. Select them as DESCENDANTS of the footer. Change the color of the footer links on :visited and :hover.</li>
+            <li>Select all the anchor links in the footer. Select them as DESCENDANTS of the footer using a combinator. Change the color of the footer links on :visited, :active and :hover.</li>
+
+            <li>Give the whole body element padding on the left and the right.</li>
         </ol>
 
     </main>
@@ -168,24 +169,24 @@
 
 <!-- Flexbox -->
 <h4>Flexbox</h4>
-<div class="flex-container">
-    <div class="flex-item">1</div>
-    <div class="flex-item">2</div>
-    <div class="flex-item">3</div>
-    <div class="flex-item">4</div>
-    <div class="flex-item">5</div>
-    <div class="flex-item">6</div>
-    <div class="flex-item">7</div>
-    <div class="flex-item">8</div>
-    <div class="flex-item">9</div>
-    <div class="flex-item">10</div>
+<div class="fx-container">
+    <div class="fx-item">1</div>
+    <div class="fx-item">2</div>
+    <div class="fx-item">3</div>
+    <div class="fx-item">4</div>
+    <div class="fx-item">5</div>
+    <div class="fx-item">6</div>
+    <div class="fx-item">7</div>
+    <div class="fx-item">8</div>
+    <div class="fx-item">9</div>
+    <div class="fx-item">10</div>
 </div>
 
 <!-- Positioning -->
 <h4>Positioning</h4>
 <div class="box">
-<div class="relative">Relative
-    <div class="absolute">Absolute</div>
+<div class="position-relative">Relative
+    <div class="position-absolute">Absolute</div>
 </div>
 </div>
 
@@ -205,9 +206,9 @@
   <!-- Images Section -->
   <section class="images">
     <h4>Images Section</h4>        
-    <div class="background"></div>
-    <img height="200" src="images/mountain.jpg" alt="Image 2">
-    <img height="200" src="images/surfer.jpg" alt="Image 3">
+    <div class="bg-image"></div>
+    <img height="200" src="images/mountain.jpg" alt="Mountain Image">
+    <img height="200" src="images/surfer.jpg" alt="Surfer Image">
 </section>
 
 
