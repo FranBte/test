@@ -27,11 +27,11 @@
             display: inline-block;
         }
               
-        .flex-container {
+        .fx-container {
             border: 2px solid black;
         }
 
-        .flex-item {
+        .fx-item {
             border: 2px solid blue;
             height: 10rem;
             width: 10rem;
@@ -42,26 +42,26 @@
             border: 2px solid black;
         }
 
-        .box {
+        .position-box {
             border: 2px solid black;
             height: 20rem;
             width: 20rem;
         }
         
-        .relative, .absolute {
-            border: 2px solid blue;
+        .position-relative, .position-absolute {
+            border: 2px solid red;
         }
 
-        .relative {
+        .position-relative {
             height: 10rem;
             width: 10rem;
         }
 
-        .absolute {
+        .position-absolute {
             height: 5rem;
             width: 5rem;
         }
-
+    
     </style>
 </head>
 <body>
@@ -106,7 +106,7 @@
                     <li>Go to the section titled "Positioning"</li>
                     <li>Give the div with the class "position-relative" a relative position. Use positioning to center the div in its parent element (the box)</li>
                     <li>Give the div with class "position-absolute" an absolute position. Use positioning to align the div in the top-left corner of its parent element (the relative container).</li>
-                    <li>Make the box element (class name - "box") in this section stick to the top-right of the page.</li>
+                    <li>Make the parent container (class name - "position-box") in this section stick to the top-right of the page.</li>
                 </ul>
 
                 <li>Make sure the box appears beneath all elements on the page</li>
@@ -130,7 +130,7 @@
                 <ul>
                     <li>Find the images section in the HTML file.</li>
                     <li>Find the div with the class of "bg-image" and select it by its class name in CSS.</li>
-                    <li>Give the div with the class of "bg-image" a width of 25em and a height of 25em.</li>
+                    <li>Give the div with the class of "bg-image" a width of 20em and a height of 20em.</li>
                     <li>Give the div with the class of "bg-image" a background image using the image "tree.jpg". The image can be found in the "images" folder</li>
                     <li>Set the background image to contain.</li>
                     <li>Make sure the background image repeats itself</li>
@@ -184,7 +184,7 @@
 
 <!-- Positioning -->
 <h4>Positioning</h4>
-<div class="box">
+<div class="position-box">
 <div class="position-relative">Relative
     <div class="position-absolute">Absolute</div>
 </div>
@@ -207,8 +207,8 @@
   <section class="images">
     <h4>Images Section</h4>        
     <div class="bg-image"></div>
-    <img height="200" src="images/mountain.jpg" alt="Mountain Image">
-    <img height="200" src="images/surfer.jpg" alt="Surfer Image">
+    <img height="250" src="images/mountain.jpg" alt="Mountain Image">
+    <img height="250" src="images/surfer.jpg" alt="Surfer Image">
 </section>
 
 
