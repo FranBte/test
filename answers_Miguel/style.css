@@ -1,0 +1,107 @@
+
+        /* default style for test */
+
+        header {
+            background-color:green;
+            text-align: right;
+            width: 100%;
+            height: 10rem;
+            
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        span {
+            width: 95%;
+            padding: .5rem;
+            border: 1px solid black;
+            margin: .5rem;
+            display: inline-block;
+            
+        }
+
+       span:nth-child(2n+5) {
+            background-color:#FFFF00;
+        }
+              
+        .fx-container {
+            color: green;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 25px;
+            border: 2px solid black;
+            display:flex;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            justify-content:center;
+            
+        }
+
+        .fx-item {
+            color: orange;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 25px;
+            border: 2px solid blue;
+            height: 5rem;
+            width: 5rem;
+            margin: 1rem;  
+            width: 100%;
+            align-items: flex-end;
+        }
+
+        .media-query {
+            color: brown;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 25px;
+            border: 2px solid black;
+            
+        }
+
+        
+
+        @media (min-width: 750px) and (max-width: 768px){
+            .lateral{
+            width: 5em;
+            float: right;
+            background-color: green;
+            }
+
+        .position-box {
+            color: grey;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 25px;
+            border: 2px solid black;
+            height: 20rem;
+            width: 20rem;
+        }
+        
+        .position-relative, .position-absolute {
+            border: 2px solid red;
+        }
+
+        .position-relative {
+            height: 10rem;
+            width: 10rem;
+        }
+
+        .position-absolute {
+            height: 5rem;
+            width: 5rem;
+        }
+
+       footer a{
+           color: orange;
+           background-color:brown;
+       }
+
+       footer a:visited{
+           background-color: chocolate;
+       }
+
+       footer a:hover{
+        background-color: green;
+       }
+
+
+      
